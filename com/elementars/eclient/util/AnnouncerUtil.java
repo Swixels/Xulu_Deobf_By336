@@ -5,7 +5,7 @@ import com.elementars.eclient.module.misc.Announcer;
 public class AnnouncerUtil {
    public static String getPickBlock() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just used pick block thanks to Xulu!";
+         return ">I just used pick block!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב קולב קיפב יתשמתשה עגרכ" : "null";
       }
@@ -35,7 +35,7 @@ public class AnnouncerUtil {
 
    public static String getRespawn() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just respawned thanks to Xulu!";
+         return ">I just respawned!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב הייחתל יתמק עגרכ" : "null";
       }
@@ -77,7 +77,7 @@ public class AnnouncerUtil {
 
    public static String getPause() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just paused my game thanks to Xulu!";
+         return ">I just paused my game!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב קחשמל זואפ יתישע עגרכ" : "null";
       }
@@ -85,7 +85,7 @@ public class AnnouncerUtil {
 
    public static String getPerspectives() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just changed perspectives thanks to Xulu!";
+         return ">I just changed perspectives!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב טבמ תדוקנ יתפלחה עגרכ" : "null";
       }
@@ -93,7 +93,7 @@ public class AnnouncerUtil {
 
    public static String getConsole() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just opened my console thanks to Xulu!";
+         return ">I just opened my console!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב לוסנוקת יתחתפ עגרכ" : "null";
       }
@@ -123,7 +123,7 @@ public class AnnouncerUtil {
 
    public static String getChat() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just opened chat thanks to Xulu!";
+         return ">I just opened chat!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב ט'צה תא יתחתפ עגרכ" : "null";
       }
@@ -131,7 +131,7 @@ public class AnnouncerUtil {
 
    public static String getCrouched() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just crouched thanks to Xulu!";
+         return ">I just crouched!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב יתפפוכתה עגרכ" : "null";
       }
@@ -139,7 +139,7 @@ public class AnnouncerUtil {
 
    public static String getJumped() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just jumped thanks to Xulu!";
+         return ">I just jumped!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב יתצפק עגרכ" : "null";
       }
@@ -147,7 +147,7 @@ public class AnnouncerUtil {
 
    public static String getPlayerList() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just looked at the player list thanks to Xulu!";
+         return ">I just looked at the player list!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב םינקחשה תמישר לע יתלכתסה עגרכ" : "null";
       }
@@ -155,7 +155,7 @@ public class AnnouncerUtil {
 
    public static String getScreenShot() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just took a screen shot thanks to Xulu!";
+         return ">I just took a screen shot!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב ךסמ םוליצ יתישע עגרכ" : "null";
       }
@@ -174,7 +174,7 @@ public class AnnouncerUtil {
 
    public static String getInventory() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just opened my inventory thanks to Xulu!";
+         return ">I just opened my inventory!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב ילש ירוטנבניאה תא יתחתפ עגרכ" : "null";
       }
@@ -182,7 +182,7 @@ public class AnnouncerUtil {
 
    public static String getFullScreen() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just turned full screen mode thanks to Xulu!";
+         return ">I just turned full screen mode!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב ןירקס לופ יתישע עגרכ" : "null";
       }
@@ -201,7 +201,7 @@ public class AnnouncerUtil {
 
    public static String getSwappedHands() {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return "I just swapped hands thanks to Xulu!";
+         return ">I just swapped hands!";
       } else {
          return ((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew") ? "!Xulu תוכזב םיידי יתפלחה עגרכ" : "null";
       }
