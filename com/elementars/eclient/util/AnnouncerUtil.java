@@ -13,7 +13,7 @@ public class AnnouncerUtil {
 
    public static String getDropped(String var0) {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return String.valueOf((new StringBuilder()).append("I just dropped a ").append(var0).append(" thanks to Xulu!"));
+         return String.valueOf((new StringBuilder()).append(">I just dropped a ").append(var0).append("!"));
       } else if (((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew")) {
          String var1 = "!Xulu תוכזב <> יתלפה עגרכ";
          return var1.replaceAll("<>", var0);
@@ -24,7 +24,7 @@ public class AnnouncerUtil {
 
    public static String getPlaced(String var0) {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return String.valueOf((new StringBuilder()).append("I just placed a ").append(var0).append(" block thanks to Xulu!"));
+         return String.valueOf((new StringBuilder()).append(">I just placed a ").append(var0).append(" block!"));
       } else if (((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew")) {
          String var1 = "!Xulu תוכזב <> יתחנה עגרכ";
          return var1.replaceAll("<>", var0);
@@ -43,7 +43,7 @@ public class AnnouncerUtil {
 
    public static String getCraft(String var0) {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return String.valueOf((new StringBuilder()).append("I just crafted ").append(var0).append(" thanks to Xulu!"));
+         return String.valueOf((new StringBuilder()).append(>"I just crafted ").append(var0).append("!"));
       } else if (((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew")) {
          String var1 = "!Xulu תוכזב <> יתרצי עגרכ";
          return var1.replaceAll("<>", var0);
@@ -54,7 +54,7 @@ public class AnnouncerUtil {
 
    public static String getAttacked(String var0, String var1) {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return String.valueOf((new StringBuilder()).append("I just attacked ").append(var0).append(" with a ").append(var1).append(" thanks to Xulu!"));
+         return String.valueOf((new StringBuilder()).append(">I just attacked ").append(var0).append(" with a ").append(var1).append("!"));
       } else if (((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew")) {
          String var2 = "!Xulu תוכזב :: םע <> תא יתפקת עגרכ";
          var2 = var2.replaceAll("<>", var0);
@@ -66,7 +66,7 @@ public class AnnouncerUtil {
 
    public static String getAte(String var0) {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return String.valueOf((new StringBuilder()).append("I just ate a ").append(var0).append(" thanks to Xulu!"));
+         return String.valueOf((new StringBuilder()).append(">I just ate a ").append(var0).append("!"));
       } else if (((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew")) {
          String var1 = "!Xulu תוכזב <> יתלכא עגרכ";
          return var1.replaceAll("<>", var0);
@@ -101,7 +101,7 @@ public class AnnouncerUtil {
 
    public static String getBlockBreak(String var0) {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return String.valueOf((new StringBuilder()).append("I just broke a ").append(var0).append(" thanks to Xulu!"));
+         return String.valueOf((new StringBuilder()).append(">I just broke a ").append(var0).append("!"));
       } else if (((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew")) {
          String var1 = "!Xulu תוכזב <> יתרבש עגרכ";
          return var1.replaceAll("<>", var0);
@@ -112,7 +112,7 @@ public class AnnouncerUtil {
 
    public static String getSmelted(String var0) {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return String.valueOf((new StringBuilder()).append("I just smelted ").append(var0).append(" thanks to Xulu!"));
+         return String.valueOf((new StringBuilder()).append(">I just smelted ").append(var0).append("!"));
       } else if (((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew")) {
          String var1 = "!Xulu תוכזב <> יתכתה עגרכ";
          return var1.replaceAll("<>", var0);
@@ -163,7 +163,7 @@ public class AnnouncerUtil {
 
    public static String getMove(String var0) {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return String.valueOf((new StringBuilder()).append("I just moved ").append(var0).append(" feet thanks to Xulu!"));
+         return String.valueOf((new StringBuilder()).append(">I just moved ").append(var0).append(" feet!"));
       } else if (((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew")) {
          String var1 = "!Xulu תוכזב טיפ <> יתזז עגרכ";
          return var1.replaceAll("<>", var0);
@@ -190,7 +190,7 @@ public class AnnouncerUtil {
 
    public static String getPickedUp(String var0) {
       if (((String)Announcer.mode.getValue()).equalsIgnoreCase("English")) {
-         return String.valueOf((new StringBuilder()).append("I just picked up a ").append(var0).append(" thanks to Xulu!"));
+         return String.valueOf((new StringBuilder()).append(">I just picked up a ").append(var0).append("!"));
       } else if (((String)Announcer.mode.getValue()).equalsIgnoreCase("Hebrew")) {
          String var1 = "!Xulu תוכזב <> יתמרה עגרכ";
          return var1.replaceAll("<>", var0);
